@@ -191,7 +191,7 @@ a {
 
 .btn--primary {
   background: var(--color-primary);
-  color: #fff;
+  color: #ffff;
 }
 
 .btn--primary:hover {
