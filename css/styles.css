@@ -15,11 +15,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 /* Typography */
 ::selection {
   background: var(--color-primary);
@@ -28,6 +23,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+img {
+  width: 100%;
 }
 
 body {
@@ -47,6 +46,7 @@ h3 {
 
 h1 {
   font-size: 7rem;
+  font-weight: 700;
 }
 
 h2 {
@@ -655,6 +655,11 @@ a {
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .nav {
   background: #000;
   display: flex;
@@ -697,6 +702,7 @@ a {
 
 .nav__brand {
   transform: translateY(5px);
+  width: 150px;
 }
 
 @media screen and (min-width: 768px) {
